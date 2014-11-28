@@ -10,12 +10,12 @@ QUnit.test("isDivisibleBy cases", function(assert) {
     }
 
     // call divide function for each test case
-    divide(99, 9, true);
+    divide(99, 9, false);
     divide(20, 5, true);
     divide(56, 8, true);
     divide(36, 6, true);
     divide(60, 1, true);
-    divide(99, 10, false);
+    divide(99, 10, true);
     divide(100, 3, false);
     divide(5, 0, "Cannot divide by 0");
 });
