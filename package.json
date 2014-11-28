@@ -1,0 +1,29 @@
+{
+    "name": "travis-ci-node-and-browser-qunit",
+    "version": "0.0.1",
+    "description": "JS Library",
+    "keywords": [
+        "library"
+    ],
+    "homepage": "http://example.org/mylib",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Hanked/travis-ci-node-and-browser-qunit"
+    },
+    "bugs": "https://github.com/Hanked/travis-ci-node-and-browser-qunit",
+    "author": {
+        "name": "Dave Kingsnorth",
+        "web": "https://github.com/Hanked"
+    },
+    "main": "./src/lib.js",
+    "scripts": {
+        "test": "grunt test && node test/qunit-config.js"
+    },
+    "devDependencies": {
+        "qunit": "~0.5.15",
+        "grunt": "~0.4.1",
+        "grunt-contrib-jshint": "~0.4.3",
+        "grunt-contrib-qunit": "~0.2.1",
+        "qunitjs": "~1.11.0"
+    }
+}
