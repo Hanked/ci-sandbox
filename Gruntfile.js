@@ -1,6 +1,7 @@
 module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-qunit');
+    grunt.loadNpmTasks('grunt-plato');
 
     grunt.initConfig({
         jshint: {
@@ -8,9 +9,16 @@ module.exports = function (grunt) {
         },
         qunit: {
             all: ['test/index.html']
+        },
+        plato: {
+            js: {
+                files: {
+                    'report': ['src/**/*.js', 'test/**/*.js']
+                }
+            }
         }
     });
 
-    grunt.registerTask('test', ['jshint', 'qunit']);
+    grunt.registerTask('test', ['jshint', 'qunit', 'plato']);
     grunt.registerTask('default', ['test']);
 };
