@@ -8,4 +8,4 @@ env:
     - "FTP_USER=davelk"
     - "FTP_PASSWORD=Daftp1n2@"
 after_success:
-    "curl --ftp-create-dirs -T uploadfilename -u $FTP_USER:$FTP_PASSWORD ftp://188.121.55.128/ci-sandbox/"
+    "curl --ftp-create-dirs -T ci-sandbox/ -u $FTP_USER:$FTP_PASSWORD ftp://188.121.55.128/ci-sandbox/"
