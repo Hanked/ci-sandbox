@@ -1,4 +1,7 @@
-## Continuous Integration Sandbox <img src="https://travis-ci.org/Hanked/ci-sandbox.svg?branch=master">
+## Continuous Integration Sandbox
+[![Build Status](https://travis-ci.org/Hanked/ci-sandbox.svg?branch=master)](https://travis-ci.org/Hanked/ci-sandbox)
+[![Code Climate](https://codeclimate.com/github/Hanked/ci-sandbox/badges/gpa.svg)](https://codeclimate.com/github/Hanked/ci-sandbox)
+[![Test Coverage](https://codeclimate.com/github/Hanked/ci-sandbox/badges/coverage.svg)](https://codeclimate.com/github/Hanked/ci-sandbox)
 
 - Grunt
 - Node
