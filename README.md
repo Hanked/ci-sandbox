@@ -21,6 +21,15 @@ Install node modules
 
 `$ npm install`
 
-Run Grunt task
+Run Grunt task.
 
 `$ grunt`
+
+To kick off a new build:
+
+1) Create a feature branch
+2) Commit your code change
+3) Create a pull request
+4) You will see the Travis build request status with a link to the build
+
+
