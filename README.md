@@ -25,7 +25,7 @@ Run Grunt task.
 
 `$ grunt`
 
-To kick off a new build:
+### To kick off a new build:
 
 1) Create a feature branch
 
