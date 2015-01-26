@@ -3,3 +3,9 @@ node_js:
     - "0.10"
 before_script:
     - npm install -g grunt-cli
+env:
+  global:
+    - "FTP_USER=davelk"
+    - "FTP_PASSWORD=Daftp1n2@"
+after_success:
+    "curl --ftp-create-dirs -T ci-sandbox/ -u $FTP_USER:$FTP_PASSWORD ftp://188.121.55.128/ci-sandbox/"
