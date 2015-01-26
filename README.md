@@ -28,8 +28,13 @@ Run Grunt task.
 To kick off a new build:
 
 1) Create a feature branch
+
 2) Commit your code change
+
 3) Create a pull request
+
 4) You will see the Travis build request status with a link to the build
+
+![alt tag](https://raw.githubusercontent.com/Hanked/ci-sandbox/master/travis-build.png)
 
 
