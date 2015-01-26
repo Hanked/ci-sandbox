@@ -2,7 +2,7 @@ QUnit.module('General');
 
 QUnit.test("isDivisibleBy cases", function(assert) {
     // fail if we do not make 8 assertions
-    assert.expect(8);
+    assert.expect(10);
 
     // extract function call in to a function that does the evaluation/assertion
     function divide(a, b, expected) {
